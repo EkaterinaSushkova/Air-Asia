@@ -20,7 +20,7 @@ header {
     height: 120px;
     position:relative;
 }
-.logo {
+logo {
     display: block;
     position:absolute;
     top: 57;
@@ -31,7 +31,7 @@ menu {
     top: 65;
     left: 250;
 }
-.contacts {
+contacts {
     position: absolute;
     top: 48px;
 }
