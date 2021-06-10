@@ -50,10 +50,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 .contacts {
     position: absolute;
-    top: 48px;
+    top: 26,64px;
+    height: 35px;
     right: 0px;
     font-style: normal;
     text-align: right;
+    display: flex;
+    align-items: center;
 }
 .menu-item {
     display: inline block;
