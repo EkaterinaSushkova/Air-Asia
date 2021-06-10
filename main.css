@@ -2,7 +2,7 @@ body {
     font-family: "Open Sans", Helvetica, sans-serif;
     color: #fff;
     background:#001821;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 1.42;
     -webkit-font-smoothing: antialiased; 
     -moz-osx-font-smoothing: grayscale;
@@ -10,27 +10,122 @@ body {
 a {
     color: inherit;
 }
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    list-style: none;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    font-weight: normal;
+}
 .container {
     margin: 0;
-    width: 1150px
+    width: 1150px;
 }
 
 .header {
     height: 120px;
     position:relative;
+    margin-bottom: 150px;
 }
 .logo {
     display: block;
-    position:absolute;
-    top: 57;
-    left: 0;
+    position: absolute;
+    width: 85px;
+    height: 36px;
+    left: 390px;
+    top: 29px;
 }
 .menu {
     position: absolute;
-    top: 65;
-    left: 250;
+    width: 264px;
+    height: 42px; 
+    left: 554px;
+    top: 42px;
 }
 .contacts {
     position: absolute;
     top: 48px;
+    right: 0px;
+    font-style: normal;
+    text-align: right;
+}
+.menu-item {
+    display: inline block;
+    vertical-align: middle;
+    margin-right: 50px;
+}
+.menu-link {
+    font-size: 14px;
+    text-decoration: none;
+}
+.menu-link:hover {
+    color: #dfb56d;
+}
+.contacts__phone {
+    text-decoration: none;
+    font-size: 26px;
+    margin-bottom: 4px;
+}
+.contacts__dropdown-title {
+    font-size: 13px;
+    text-decoration: underline;
+    color: #dfb56d;
+}
+.hello {
+    width: 400px;
+}
+.hello__title {
+    position: absolute;
+    width: 511px;
+    height: 197px;
+    left: 390px;
+    top: 196px;
+
+    font-family: Open Sans; 
+    font-style: normal;
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 98px;
+    display: flex;
+    align-items: flex-end;
+    color: #FFFFFF;
+}
+.hello_text {
+    font-size: 18px;
+    color: #fff;
+    position: absolute;
+    width: 196px;
+    height: 20px;
+    left: 390px;
+    top: 420.5px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 20px;
+    /* identical to box height, or 111% */
+    display: flex;
+    align-items: center;
+}
+
+.hello__button {
+    position: absolute;
+    width: 168px;
+    height: 55px;
+    left: 390px;
+    top: 474px;
+    background: #F5170E;
+    border-radius: 35px;
+    font-weight: bold;
+    font-size: 14px;
+    font-style: normal;
+    line-height: 19px;
+    text-transform: uppercase;
+    align-items: center;
+    display: flex;
 }
