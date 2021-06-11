@@ -23,44 +23,39 @@ h1, h2, h3, h4, h5, h6 {
     margin: 0;
     font-weight: normal;
 }
-.container {
-    margin: 0;
-    width: 1150px;
+
+.header__container {
 }
 
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+    
+}
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
 .header {
-    height: 120px;
-    position:relative;
     margin-bottom: 150px;
 }
-.logo {
+.header .logo {
     display: block;
-    position: absolute;
     width: 85px;
     height: 36px;
     left: 390px;
     top: 29px;
 }
-.menu {
-    position: absolute;
-    width: 264px;
-    height: 42px; 
-    left: 554px;
-    top: 42px;
+.header .menu {
+
 }
-.contacts {
-    position: absolute;
-    top: 26,64px;
-    height: 35px;
-    right: 0px;
-    font-style: normal;
+.header .contacts {
     text-align: right;
-    display: flex;
-    align-items: center;
+    font-style:normal;
 }
-.menu-item {
-    display: inline block;
-    vertical-align: middle;
+.menu_item {
+    display: inline-block;
     margin-right: 50px;
 }
 .menu-link {
@@ -75,60 +70,65 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 26px;
     margin-bottom: 4px;
 }
+.contacts__info{
+    font-size: 13px;
+}
 .contacts__dropdown-title {
     font-size: 13px;
     text-decoration: underline;
     color: #dfb56d;
 }
 .hello {
-    width: 400px;
+    max-width: 400px;
 }
 .hello__title {
-    position: absolute;
-    width: 511px;
-    height: 197px;
-    left: 390px;
-    top: 196px;
-
-    font-family: Open Sans; 
-    font-style: normal;
+    max-width: 511px;
     font-weight: bold;
-    font-size: 72px;
-    line-height: 98px;
-    display: flex;
-    align-items: flex-end;
+    font-size: 52px;
+    line-height: 1.2em;
     color: #FFFFFF;
 }
 .hello_text {
-    font-size: 18px;
     color: #fff;
-    position: absolute;
-    width: 196px;
-    height: 20px;
-    left: 390px;
-    top: 420.5px;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 20px;
-    /* identical to box height, or 111% */
-    display: flex;
-    align-items: center;
+    margin: 30px 0;
 }
 
 .hello__button {
-    position: absolute;
-    width: 168px;
-    height: 55px;
-    left: 390px;
-    top: 474px;
+    display: inline-block;
+    padding: 10px 30px;
     background: #F5170E;
     border-radius: 35px;
     font-weight: bold;
     font-size: 14px;
     font-style: normal;
-    line-height: 19px;
     text-transform: uppercase;
-    align-items: center;
+    text-decoration: none;
+}
+.promo {
+    margin-top: 200px;
+}
+.promo__list, .promo_item {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.promo__list {
     display: flex;
+    gap: 15px;
+}
+.card__content{
+    background-color: #fff;
+    padding: 15px;
+    color: #303030;
+    border-radius: 0px 0px 5px 5px;
+}
+.news_wrapper {
+    display: flex;
+    gap: 15px;
+}
+.num_pages {
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
 }
