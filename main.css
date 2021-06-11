@@ -126,9 +126,16 @@ h1, h2, h3, h4, h5, h6 {
     display: flex;
     gap: 15px;
 }
-.num_pages {
+.info--pages {
     font-size: 16px;
     line-height: 20px;
     display: flex;
     align-items: center;
+}
+.title .Social-list {
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 30px;
+    margin-top: 100px;
+    width: 36px;
 }
