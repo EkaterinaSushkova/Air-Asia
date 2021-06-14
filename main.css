@@ -113,8 +113,8 @@ h1, h2, h3, h4, h5, h6 {
     list-style: none;
 }
 .promo__list {
-    display: flex;
     gap: 15px;
+    display: flex;
 }
 .card__content{
     background-color: #fff;
@@ -130,12 +130,11 @@ h1, h2, h3, h4, h5, h6 {
     display: flex;
     gap: 15px;
 }
-.info--pages {
+.info {
     font-size: 16px;
     line-height: 20px;
     text-align:center;
     display:inline-block;
-
 }
 .title .Social-list {
     display: flex;
