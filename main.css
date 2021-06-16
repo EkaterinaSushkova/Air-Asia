@@ -129,6 +129,7 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 1em;
 }
 .title{
+    font-weight: bold;
     margin-top: 100px;
     margin-bottom: 30px;
     font-size: 36px;
@@ -203,4 +204,22 @@ border-radius: 35px;
     font-size: 14px;
     font-style: normal;
     text-decoration: none;
+}
+.button--white {
+    color: #F5170E;
+    text-transform: uppercase;
+    font-weight: bold;
+    display: inline-block;
+    padding: 10px 30px;
+    background: #FFFFFF;
+    border-radius: 35px;
+    font-size: 14px;
+    font-style: normal;
+    text-decoration: none;
+    border: 1px solid #F5170E;
+}
+.pages__number {
+    display: flex;
+    padding: 100px;
+    align-items: center;
 }
