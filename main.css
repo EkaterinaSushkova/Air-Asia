@@ -221,5 +221,7 @@ border-radius: 35px;
 .pages__number {
     display: flex;
     padding: 100px;
-    align-items: center;
+    justify-content: center;
+    padding: 100px;
+    margin-right: 50px;
 }
