@@ -80,11 +80,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 .hello {
     max-width: 400px;
+    max-width: 590px;
 }
 .hello__title {
-    max-width: 511px;
     font-weight: bold;
-    font-size: 52px;
+    font-size: 72px;
     line-height: 1.2em;
     color: #FFFFFF;
 }
@@ -126,7 +126,7 @@ h1, h2, h3, h4, h5, h6 {
     color: #000000;
     font-weight: bold;
     font-size: 24px;
-    line-height: 33px;
+    margin-bottom: 1em;
 }
 .title{
     margin-top: 100px;
@@ -138,11 +138,18 @@ h1, h2, h3, h4, h5, h6 {
     display: flex;
     gap: 15px;
 }
-.info {
+.card__item .info {
     font-size: 16px;
     line-height: 20px;
     text-align:center;
-    display:inline-block;
+    display:flex;
+    align-items: center;
+}
+.card__item .info img{
+    margin-right: 10px;
+}
+.card__item .info--type {
+    margin-left: 15px;
 }
 .title .Social-list {
     display: flex;
@@ -156,18 +163,19 @@ h1, h2, h3, h4, h5, h6 {
     width:100%; 
     height:auto;
 }
-.card__item {
+.card__item img{
     display: flex;
     align-items: center;
     color: #666666;
 
 }
+.card__info{
+    display: flex;
+}
 .description {
     color: #303030;
     font-size: 14px;
     line-height: 150%;
-    display: flex;
-    align-items: center;
 }
 .button--secondary {
   color: #F5170E;
