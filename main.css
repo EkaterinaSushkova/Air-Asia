@@ -218,11 +218,13 @@ border-radius: 35px;
     text-decoration: none;
     border: 1px solid #F5170E;
 }
+.info--pages {
+    height: 260px;
+}
 .card__info {
     display: flex;
-    padding: 100px;
     justify-content: center;
     padding: 60px;
-    margin-right: 680px;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    margin: 260px;
 }
