@@ -227,6 +227,7 @@ border-radius: 35px;
     padding: 60px;
     justify-content: space-evenly;
     margin: 260px;
+    cursor: pointer;
 }
 .social-list {
     display: flex;
