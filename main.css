@@ -221,7 +221,7 @@ border-radius: 35px;
 .info--pages {
     height: 260px;
 }
-.card__info {
+.card__pages {
     display: flex;
     justify-content: center;
     padding: 60px;
