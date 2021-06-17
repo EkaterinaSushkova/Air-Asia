@@ -228,3 +228,7 @@ border-radius: 35px;
     justify-content: space-evenly;
     margin: 260px;
 }
+.social-list {
+    display: flex;
+    justify-content: space-around;
+}
