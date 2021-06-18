@@ -78,16 +78,13 @@ h1, h2, h3, h4, h5, h6 {
     text-decoration: underline;
     color: #dfb56d;
 }
-.hello {
-    max-width: 400px;
-    max-width: 590px;
-    margin-left: 50px;
-}
+
 .hello__title {
     font-weight: bold;
     font-size: 72px;
     line-height: 1.2em;
     color: #FFFFFF;
+    max-width: 510px;
 }
 .hello_text {
     color: #fff;
