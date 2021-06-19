@@ -38,7 +38,11 @@ h1, h2, h3, h4, h5, h6 {
     align-items: baseline;
 }
 .header {
-    margin-bottom: 150px;
+    margin-bottom: 156px;
+    position: relative;
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
 }
 .header .logo {
     display: block;
@@ -77,7 +81,7 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 13px;
     text-decoration: underline;
     color: #dfb56d;
-}
+} 
 
 .hello__title {
     font-weight: bold;
@@ -159,7 +163,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 .card__image img{
     display: block; 
-    width:100%; 
     height:auto;
 }
 .card__item img{
@@ -216,6 +219,7 @@ border-radius: 35px;
     text-decoration: none;
     border: 1px solid #F5170E;
 }
+/*
 .info--pages {
     height: 260px;
 }
@@ -227,7 +231,45 @@ border-radius: 35px;
     margin: 260px;
     cursor: pointer;
 }
+*/
+.pages {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.pages__info {
+    margin-right: 19px;
+}
+.card__offers {
+    position: relative;
+}
+.card__offers__bottom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color:black;
+    padding: 20px;
+}
+
+.description__offers {
+    max-width: 502px;
+}
+
+.card__pages {
+    display: flex;
+    align-items: center;
+}
+
 .social-list {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+}
+.social__item {
+    display: inline-block;
+    margin-right: 10px;
+}
+.social__link {
+
 }
