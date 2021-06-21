@@ -253,7 +253,9 @@ border-radius: 35px;
 }
 
 .description__offers {
-    max-width: 502px;
+    max-width: 492px;
+    font-size: 16px;
+    line-height: 27px;
 }
 
 .card__pages {
