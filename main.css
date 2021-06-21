@@ -9,12 +9,12 @@
 body {
     font-family: "Open Sans", Helvetica, sans-serif;
     color: #fff;
-    background:#001821;
+    background:#001821 url(./img/1.png) no-repeat top center;
+    background:#001821 url(./img/2.png) no-repeat bottom center;
     font-size: 14px;
     line-height: 1.42;
     -webkit-font-smoothing: antialiased; 
     -moz-osx-font-smoothing: grayscale;
-    background-image: url(./img/1.png);
 }
 a {
     color: inherit;
