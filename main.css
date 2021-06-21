@@ -14,7 +14,7 @@ body {
     line-height: 1.42;
     -webkit-font-smoothing: antialiased; 
     -moz-osx-font-smoothing: grayscale;
-    background-image: url(/img/1.png);
+    background-image: url(./img/1.png);
 }
 a {
     color: inherit;
