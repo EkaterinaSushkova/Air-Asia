@@ -5,6 +5,7 @@
 .container {
     width: 940px;
     margin: 0 auto;
+    max-width: 1140px;
 }
 body {
     font-family: "Open Sans", Helvetica, sans-serif;
@@ -33,11 +34,6 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: normal;
 }
 
-.container {
-    margin: 0 auto;
-    max-width: 1200px;
-    
-}
 .header .container {
     display: flex;
     justify-content: space-between;
