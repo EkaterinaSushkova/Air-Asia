@@ -67,6 +67,11 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 14px;
     text-decoration: none;
 }
+.menu__list{
+    position: absolute;
+    top: 8px;
+    left: 763px;
+}
 .menu-link:hover {
     color: #dfb56d;
 }
