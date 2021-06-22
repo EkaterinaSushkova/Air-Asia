@@ -40,7 +40,7 @@ h1, h2, h3, h4, h5, h6 {
     align-items: baseline;
 }
 .header {
-    margin-bottom: 156px;
+    margin-bottom: 56px;
     position: relative;
     height: 120px;
     justify-content: space-between;
@@ -97,12 +97,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 .hello_text {
     color: #fff;
-    margin: 30px 0;
+    margin: 45px 0;
+    font-size: 18px;
 }
 
 .hello__button {
     display: inline-block;
-    padding: 10px 30px;
+    padding: 20px 40px;
+    margin-top: -20px;
     background: #F5170E;
     border-radius: 35px;
     font-weight: bold;
