@@ -363,3 +363,6 @@ display:flex;
 .footer{
     margin-top: 91px;
 }
+.footer .right {
+    display:flex;
+}
