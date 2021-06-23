@@ -322,6 +322,7 @@ display:flex;
 .social-list {
     display: flex;
     justify-content: space-between;
+    margin-right: 60px;
 }
 .social__item {
     display: inline-block;
