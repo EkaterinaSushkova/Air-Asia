@@ -69,8 +69,7 @@ h1, h2, h3, h4, h5, h6 {
     text-decoration: none;
 }
 .menu__list{
-    top: 8px;
-    left: 763px;
+
 }
 .menu-link:hover {
     color: #dfb56d;
@@ -353,6 +352,9 @@ h1, h2, h3, h4, h5, h6 {
 
 }
 .about .button--red {
-    margin-top: 20px;
+    margin-top: 27px;
     padding: 16px 40px;
+}
+.footer{
+    margin-top: 70px;
 }
