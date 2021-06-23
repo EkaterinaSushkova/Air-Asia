@@ -48,6 +48,9 @@ h1, h2, h3, h4, h5, h6 {
 .header .branding {
 display:flex;
 }
+.branding .menu {
+    margin-left: 80px;
+}
 .header .logo {
     display: block;
     width: 85px;
