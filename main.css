@@ -3,7 +3,6 @@
     min-width: 1150px;
 }
 .container {
-    width: 940px;
     margin: 0 auto;
     max-width: 1140px;
 }
@@ -37,7 +36,7 @@ h1, h2, h3, h4, h5, h6 {
 .header .container {
     display: flex;
     justify-content: space-between;
-    align-items: baseline;
+    align-items: center;
 }
 .header {
     margin-bottom: 56px;
@@ -53,7 +52,8 @@ h1, h2, h3, h4, h5, h6 {
     top: 29px;
 }
 .header .menu {
-
+    margin-left: -390px;
+    text-decoration: none;
 }
 .header .contacts {
     text-align: right;
@@ -84,27 +84,26 @@ h1, h2, h3, h4, h5, h6 {
 }
 .contacts__dropdown-title {
     font-size: 13px;
-    text-decoration: underline;
+    text-decoration: none;
     color: #dfb56d;
 } 
 
 .hello__title {
     font-weight: bold;
     font-size: 72px;
-    line-height: 1.2em;
+    line-height: 1.4em;
     color: #FFFFFF;
     max-width: 510px;
 }
 .hello_text {
     color: #fff;
-    margin: 45px 0;
+    margin: 25px 0;
     font-size: 18px;
 }
 
 .hello__button {
     display: inline-block;
     padding: 20px 40px;
-    margin-top: -20px;
     background: #F5170E;
     border-radius: 35px;
     font-weight: bold;
@@ -114,7 +113,7 @@ h1, h2, h3, h4, h5, h6 {
     text-decoration: none;
 }
 .promo {
-    margin-top: 200px;
+    margin-top: 264px;
 }
 .promo__list, .promo_item {
     margin: 0;
@@ -122,7 +121,7 @@ h1, h2, h3, h4, h5, h6 {
     list-style: none;
 }
 .promo__list {
-    gap: 15px;
+    gap: 25px;
     display: flex;
 }
 .card__content{
