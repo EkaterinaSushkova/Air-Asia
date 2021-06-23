@@ -40,10 +40,10 @@ h1, h2, h3, h4, h5, h6 {
     align-items: center;
 }
 .header {
-    margin-bottom: 56px;
+    margin-bottom: 116px;
     position: relative;
-    height: 120px;
     justify-content: space-between;
+    
 }
 .header .logo {
     display: block;
@@ -81,6 +81,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 .contacts__info{
     font-size: 13px;
+    margin-top: -6px;
+
 }
 .contacts__dropdown-title {
     font-size: 13px;
@@ -103,7 +105,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .hello__button {
     display: inline-block;
-    padding: 20px 40px;
+    padding: 19px 40px;
     background: #F5170E;
     border-radius: 35px;
     font-weight: bold;
@@ -111,9 +113,10 @@ h1, h2, h3, h4, h5, h6 {
     font-style: normal;
     text-transform: uppercase;
     text-decoration: none;
+    margin-top: 5px;
 }
 .promo {
-    margin-top: 264px;
+    margin-top: 245px;
 }
 .promo__list, .promo_item {
     margin: 0;
@@ -123,18 +126,23 @@ h1, h2, h3, h4, h5, h6 {
 .promo__list {
     gap: 25px;
     display: flex;
+    margin-top: 52px;
+
 }
 .card__content{
     background-color: #fff;
-    padding: 15px;
+    padding: 20px;
     color: #303030;
     border-radius: 0px 0px 5px 5px;
+
 }
 .card__title {
     color: #000000;
     font-weight: bold;
     font-size: 24px;
     margin-bottom: 1em;
+    margin-top: 13px;
+
 }
 .title{
     font-weight: bold;
@@ -153,9 +161,14 @@ h1, h2, h3, h4, h5, h6 {
     text-align:center;
     display:flex;
     align-items: center;
+
+}
+.card__item .info--date {
+    margin-right: 16px;
 }
 .card__item .info img{
-    margin-right: 10px;
+    margin-right: 18px;
+
 }
 .card__item .info--type {
     margin-left: 15px;
@@ -170,7 +183,7 @@ h1, h2, h3, h4, h5, h6 {
 .card__image img{
     display: block; 
     height:auto;
-    width:100px;
+    width:100%;
 }
 .card__item img{
     display: flex;
