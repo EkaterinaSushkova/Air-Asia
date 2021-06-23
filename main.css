@@ -270,38 +270,38 @@ h1, h2, h3, h4, h5, h6 {
     border: 1px solid #F5170E;
     margin-top: 9px;
 }
-/*
-.info--pages {
-    height: 260px;
-}
-.card__pages {
-    display: flex;
-    justify-content: center;
-    padding: 60px;
-    justify-content: space-evenly;
-    margin: 260px;
-    cursor: pointer;
-}
-*/
 .pages {
     display: flex;
     justify-content: center;
     align-items: center;
     cursor: pointer;
+    margin-top: 53px;
+    font-size: 16px;
+}
+.pages .pages__item {
+    display: inline-block;
+    border-radius: 50%;
+    width: 34px;
+    height: 34px;
+    text-align: center;
+    line-height: 34px;
+}
+.pages .pages__item:hover {
+    background-color: #fff;
+    color: #F5170E;
 }
 .pages__info {
-    margin-right: 19px;
 }
 .card__offers {
     position: relative;
 }
 .card__offers__bottom {
     position: absolute;
-    bottom: 0;
+    top: 0;
     left: 0;
     right: 0;
     color:black;
-    padding: 20px;
+    padding: 59px 80px;
 }
 
 .description__offers {
@@ -332,9 +332,10 @@ h1, h2, h3, h4, h5, h6 {
     height: auto;
 }
 .card_background_image {
-    margin-left: 30%;
+    margin-left: 355px;
     position: relative;
     z-index: 2;
+
 }
 .about .card__image {
     position: absolute;
@@ -343,6 +344,15 @@ h1, h2, h3, h4, h5, h6 {
 
 }
 .about {
-    margin-top: 120px;
+    margin-top: 253px;
     margin-bottom: 60px;
+}
+.title_black {
+    margin-top: 0;
+    margin-bottom: 35px;
+
+}
+.about .button--red {
+    margin-top: 20px;
+    padding: 16px 40px;
 }
