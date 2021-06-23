@@ -222,6 +222,8 @@ h1, h2, h3, h4, h5, h6 {
     color: #303030;
     font-size: 14px;
     line-height: 150%;
+    margin-top: 22px;
+
 }
 .button--secondary {
   color: #F5170E;
