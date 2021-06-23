@@ -122,6 +122,10 @@ display:flex;
 .promo {
     margin-top: 245px;
 }
+.promo .title img {
+    display: inline-block;
+    margin-left: 6px;
+}
 .promo__list, .promo_item {
     margin: 0;
     padding: 0;
