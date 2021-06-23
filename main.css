@@ -151,9 +151,13 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 36px;
     line-height: 49px;  
 }
+.news {
+    margin-top: 134px;
+}
 .news_wrapper {
     display: flex;
-    gap: 15px;
+    gap: 24px;
+    margin-top: 50px;
 }
 .card__item .info {
     font-size: 16px;
@@ -205,14 +209,13 @@ h1, h2, h3, h4, h5, h6 {
     color: white;
     font-weight: bold;
     font-size: 24px;
-    margin-bottom: 1em;
-    margin-top: 30px;
+    margin-top: 14px;
 }
 .description__news {
     color: white;
     font-size: 16px;
     line-height: 150%;
-    margin-bottom: 15px;
+    margin-bottom: 27px;    
 }
 
 .card__info{
@@ -245,25 +248,27 @@ h1, h2, h3, h4, h5, h6 {
     text-transform: uppercase;
     font-weight: bold;
     display: inline-block;
-    padding: 10px 30px;
+    padding: 16px 30px;
     background: #F5170E;
     border-radius: 35px;
     font-size: 14px;
     font-style: normal;
     text-decoration: none;
+    margin-top: 9px;
 }
 .button--white {
     color: #F5170E;
     text-transform: uppercase;
     font-weight: bold;
     display: inline-block;
-    padding: 10px 30px;
+    padding: 16px 30px;
     background: #FFFFFF;
     border-radius: 35px;
     font-size: 14px;
     font-style: normal;
     text-decoration: none;
     border: 1px solid #F5170E;
+    margin-top: 9px;
 }
 /*
 .info--pages {
