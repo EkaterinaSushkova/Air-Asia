@@ -170,6 +170,7 @@ h1, h2, h3, h4, h5, h6 {
 .card__image img{
     display: block; 
     height:auto;
+    width:100px;
 }
 .card__item img{
     display: flex;
