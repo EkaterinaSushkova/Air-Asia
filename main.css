@@ -361,7 +361,7 @@ display:flex;
 }
 
 /* Services page */
-.services {
+.body_services {
     font-family: "Open Sans", Helvetica, sans-serif;
     color: #fff;
     background: url(./img/headline\ 1.png) right 50% top no-repeat; 
@@ -412,4 +412,35 @@ display:flex;
 
 .breadcrumbs__item--active {
     
+}
+.page-content {
+    background-color: #F2F2F2;
+    color: #303030;
+    padding: 40px 0;
+}
+.service {
+    display: flex;
+    padding: 58px 43px;
+    text-decoration: none;
+}
+.services__img {
+    width: 50%;
+    margin-right: 7%;
+}
+.service__content {
+    flex: 1;
+}
+.page-content img {
+    display: block;
+    max-width: 100%;
+}
+.service__title {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 72px;
+    color: #000000;
+}
+.service__desc {
+    line-height: 1.7;
+    margin-bottom: 30%;
 }
