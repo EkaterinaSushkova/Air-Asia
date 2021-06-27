@@ -387,8 +387,8 @@ display:flex;
     flex-direction: column;
 }
 .breadcrumbs{
-    margin-top: 100px;
-    
+    margin-top: 75px;
+    padding-bottom: 20px;    
 }
 .breadcrumbs__item {
     display: flex;
@@ -416,16 +416,15 @@ display:flex;
 .page-content {
     background-color: #F2F2F2;
     color: #303030;
-    padding: 40px 0;
+    padding: 92px 0;
 }
 .service {
     display: flex;
-    padding: 58px 43px;
     text-decoration: none;
 }
 .services__img {
     width: 50%;
-    margin-right: 7%;
+    margin-right: 0%;
 }
 .service__content {
     flex: 1;
