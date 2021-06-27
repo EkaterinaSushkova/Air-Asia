@@ -542,7 +542,7 @@ display:flex;
 .review__header {
     display: flex;
     align-items: center;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 .review__user {
     display: flex;
@@ -550,7 +550,7 @@ display:flex;
     font-size: 24px;
     font-weight: bold;
     color: #4d76a1;
-    margin-bottom: 11px;
+    margin-bottom: 15px;
     text-decoration: underline;
 
 }
@@ -584,6 +584,9 @@ align-items: flex-start;
 }
 .review__content-text {
     margin-bottom: 50px;
+    font-size: 16px;
+    line-height: 27px;
+
 }
 .review__date {
     font-style: 14px;
