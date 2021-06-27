@@ -422,6 +422,9 @@ display:flex;
     display: flex;
     text-decoration: none;
 }
+.service:hover {
+    background: #f4f5f5;
+}
 .services__img {
     width: 50%;
     margin-right: 0%;
