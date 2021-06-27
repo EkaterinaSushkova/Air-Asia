@@ -487,7 +487,7 @@ display:flex;
 .inner-section {
     background: #FFFFFF;
     color: #1A1B1E;
-    padding: 95px 0;
+    padding: 105px 0;
 }
 .inner-section--bg--grey {
     background: #F4F5F5;
@@ -495,7 +495,7 @@ display:flex;
 .inner-section__title {
     font-size: 48px;
     font-weight: bold;
-    margin-bottom: 75px;
+    margin-bottom: 35px;
 }
 .partners__link {
     text-decoration: none;
@@ -521,4 +521,7 @@ display:flex;
 }
 .partners__link img {
     max-width: 100%;
+}
+.footer--services {
+    margin-top: 51px;
 }
