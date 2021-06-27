@@ -364,7 +364,7 @@ display:flex;
 .services {
     font-family: "Open Sans", Helvetica, sans-serif;
     color: #fff;
-    background: url(./img/headline\ 1.png) no-repeat top center; 
+    background: url(./img/headline\ 1.png) right 10% top no-repeat; 
     background-color: #001821;
     font-size: 14px;
     line-height: 1.42;
