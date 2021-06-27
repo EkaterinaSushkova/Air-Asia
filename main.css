@@ -476,6 +476,9 @@ display:flex;
     padding-top: 15px;
     margin-top: 27px;
 }
+.pages--services {
+    margin-top: 17px;
+}
 .pages--services .pages__item:hover {
     background-color: #F5170E;
     color: #FFFFFF;
