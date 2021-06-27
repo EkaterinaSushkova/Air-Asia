@@ -522,6 +522,6 @@ display:flex;
 .partners__link img {
     max-width: 100%;
 }
-.footer--services {
+.footer-container__section {
     margin-top: 51px;
 }
