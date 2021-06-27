@@ -441,7 +441,6 @@ display:flex;
     font-weight: bold;
     margin-bottom: 33px;
     color: #000000;
-    padding-top: 6px;
 }
 .service__desc {
     line-height: 1.7;
@@ -477,6 +476,8 @@ display:flex;
     padding-top: 15px;
     margin-top: 27px;
 }
-.page-content .pages {
-    margin-top: 20px;
+.pages--services .pages__item:hover {
+    background-color: #F5170E;
+    color: #FFFFFF;
+    margin-top: 0px;
 }
