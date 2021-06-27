@@ -547,7 +547,7 @@ display:flex;
 .review__user {
     display: flex;
     align-items: center;
-    font-style: 24px;
+    font-size: 24px;
     font-weight: bold;
     color: #4d76a1;
     margin-bottom: 11px;
@@ -578,7 +578,7 @@ align-items: flex-start;
     background: #c7e9d0;
 }
 .review__title {
-    font-style: 30px;
+    font-size: 30px;
     color: #202123;
     font-weight: bold;
 }
