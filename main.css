@@ -446,5 +446,34 @@ display:flex;
 .service__desc {
     line-height: 1.7;
     margin-bottom: 15%;
-    font-size: 16px;
+    font-size: 10px;
+}
+.button--services {
+    color: #F5170E;
+    text-transform: uppercase;
+    font-weight: bold;
+    display: inline-block;
+    padding: 16px 38px;
+    background: #FFFFFF;
+    border-radius: 35px;
+    font-size: 14px;
+    font-style: normal;
+    text-decoration: none;
+    border: 1px solid #F5170E;
+    margin-top: 17px;
+}
+.button--services--red {
+    color: #F5170E;
+    text-transform: uppercase;
+    font-weight: bold;
+    display: inline-block;
+    padding: 16px 38px;
+    background: #FFFFFF;
+    border-radius: 35px;
+    font-size: 14px;
+    font-style: normal;
+    text-decoration: none;
+    border: 1px solid #F5170E;
+    padding-top: 6px;
+
 }
