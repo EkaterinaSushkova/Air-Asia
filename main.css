@@ -364,7 +364,7 @@ display:flex;
 .services {
     font-family: "Open Sans", Helvetica, sans-serif;
     color: #fff;
-    background: url(./img/headline\ 1.png) right 10% top no-repeat; 
+    background: url(./img/headline\ 1.png) right 50% top no-repeat; 
     background-color: #001821;
     font-size: 14px;
     line-height: 1.42;
@@ -372,8 +372,9 @@ display:flex;
     -moz-osx-font-smoothing: grayscale;
 
 }
-.services .hello__title {
-    margin-top: -30px;
+.services .header {
+    margin-bottom: 90px;
+
 }
 .top-line .container {
     flex: 1;
@@ -386,7 +387,7 @@ display:flex;
     flex-direction: column;
 }
 .breadcrumbs{
-    margin-top: 103px;
+    margin-top: 100px;
     
 }
 .breadcrumbs__item {
