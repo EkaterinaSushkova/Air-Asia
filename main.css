@@ -484,3 +484,7 @@ display:flex;
     color: #FFFFFF;
     margin-top: 0px;
 }
+.inner-section {
+    background: #F4F5F5;
+    color: #1A1B1E;
+}
