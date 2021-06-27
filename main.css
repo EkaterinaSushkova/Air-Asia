@@ -416,7 +416,7 @@ display:flex;
 .page-content {
     background-color: #F2F2F2;
     color: #303030;
-    padding: 100px 0;
+    padding: 107px 0;
 }
 .service {
     display: flex;
@@ -445,8 +445,8 @@ display:flex;
 }
 .service__desc {
     line-height: 1.7;
-    margin-bottom: 15%;
-    font-size: 10px;
+    margin-bottom: 10%;
+    font-size: 16px;
 }
 .button--services {
     color: #F5170E;
@@ -463,17 +463,20 @@ display:flex;
     margin-top: 17px;
 }
 .button--services--red {
-    color: #F5170E;
+    color: #fff;
     text-transform: uppercase;
     font-weight: bold;
     display: inline-block;
     padding: 16px 38px;
-    background: #FFFFFF;
+    background: #F5170E;
     border-radius: 35px;
     font-size: 14px;
     font-style: normal;
     text-decoration: none;
     border: 1px solid #F5170E;
-    padding-top: 6px;
-
+    padding-top: 15px;
+    margin-top: 27px;
+}
+.page-content .pages {
+    margin-top: 20px;
 }
