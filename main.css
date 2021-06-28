@@ -3,6 +3,7 @@
     min-width: 1140px;
 }
 .container {
+    width: 100%;
     margin: 0 auto;
     max-width: 1140px;
 }
@@ -98,6 +99,10 @@ display:flex;
     line-height: 1.4em;
     color: #FFFFFF;
     max-width: 510px;
+}
+.body_services .hello__title{
+    margin-top: -32px;
+    margin-bottom: 112px;
 }
 .hello_text {
     color: #fff;
@@ -566,14 +571,20 @@ display:flex;
     align-items: center;
     font-size: 24px;
     font-weight: bold;
-    color: #4d76a1;
+    color: #000;
     margin-bottom: 15px;
+}
+.review__user:hover {
+    color: #4d76a1;
     text-decoration: underline;
-
 }
 .review__user:after {
     content: url(./img/vk-blue\ 1.png);
     height: 29px;
+    margin-left: 10px;
+}
+.review__userdata {
+    padding-left: 20px;
 }
 .avatar {
     width: 140px;
@@ -618,13 +629,19 @@ align-items: flex-start;
     flex-direction: column;
     justify-content: center;
     color: #FFFFFF;
+    position: relative;
 }
 .separator__title__img {
     position: absolute;
-    background: url(./img/couple.png) right 33% bottom 50% no-repeat;
+    background: url(./img/couple.png) no-repeat bottom;
+    background-size: contain;
+    bottom: 0;
+    top: 0;
+    right: 0;
+    width: 500px;
 }
 .separator__content {
-    max-width: 40px;
+    max-width: 521px;
 }
 .separator__title {
     font-size: 48px;
