@@ -233,11 +233,7 @@ display:flex;
     line-height: 150%;
     margin-top: 22px;
 }
-.button {
-    background: transparent;
-    border: none;
-    cursor: pointer;
-}
+
 .button--secondary {
   color: #F5170E;
   text-transform: uppercase;
@@ -265,6 +261,7 @@ display:flex;
     font-style: normal;
     text-decoration: none;
     margin-top: 9px;
+    cursor: pointer;
 }
 .button--black {
     color: #fff;
@@ -278,6 +275,7 @@ display:flex;
     font-style: normal;
     text-decoration: none;
     margin-top: 9px;
+    cursor: pointer;
 }
 .button--white {
     color: #F5170E;
@@ -685,21 +683,20 @@ align-items: flex-start;
     margin-bottom: 10px;
 }
 
-.form__btns .btn--color--black {
+.form__btns .button--black {
     background: #F5170E;
     border-radius: 35px;
 
 }
-.form__btns .btn--color--black:hover{
-    color: #2B2B2B;
-
+.button--black:hover{
+    background-color: #2B2B2B;
 }
-.form__btns .btn--color--red {
+.form__btns .button--red {
     background: #F5170E;
-    border-radius: 35px;S
+    border-radius: 35px;
 }
-.form__btns .btn--color--red{
-    color: #2B2B2B;
+.button--red:hover{
+    background-color: #2B2B2B;
 }
 
 .form__btn {
@@ -712,15 +709,3 @@ align-items: flex-start;
 .form__btns:last-child {
     margin-right: 0px;
 }
-/*
-    color: #fff;
-    text-transform: uppercase;
-    font-weight: bold;
-    display: inline-block;
-    padding: 16px 30px;
-    background: black;
-    border-radius: 35px;
-    font-size: 14px;
-    font-style: normal;
-    text-decoration: none;
-    margin-top: 9px; */
