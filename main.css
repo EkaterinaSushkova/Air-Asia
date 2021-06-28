@@ -515,6 +515,9 @@ display:flex;
 .inner-section--bg--grey {
     background: #F4F5F5;
 }
+.inner-form {
+    padding: 60px 0;
+}
 .inner-section__title {
     font-size: 48px;
     font-weight: bold;
@@ -726,7 +729,10 @@ align-items: flex-start;
     background-color: #2B2B2B;
     border-color: #2B2B2B;
 }
-
+.btns {
+    display: flex;
+    justify-content: flex-end;
+}
 .form__btn {
     margin-right: 20px;
 }
