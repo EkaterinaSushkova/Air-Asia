@@ -609,12 +609,17 @@ align-items: flex-start;
     font-weight: bold;
 }
 .separator {
-    background: #ffc0cb url(./img/couple.png) right 33% bottom 50% no-repeat;
+    background-image: url(./img/Rectangle.png);
+    background-size:cover;
     min-height: 360px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     color: #FFFFFF;
+}
+.separator__title__img {
+    position: absolute;
+    background: url(./img/couple.png) right 33% bottom 50% no-repeat;
 }
 .separator__content {
     max-width: 40px;
