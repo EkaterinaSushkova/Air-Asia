@@ -611,7 +611,7 @@ align-items: flex-start;
     padding: 8px 16px;
     border-radius: 50px;
     background: #E7E7E7;
-    margin-right: 10px;
+    margin-left: 10px;
 }
 .tag--bg--green {
     background: #c7e9d0;
@@ -740,7 +740,7 @@ align-items: flex-start;
     justify-content: flex-end;
 }
 .form__btn {
-    margin-right: 20px;
+    margin-left: 20px;
 }
 .form__btns {
     display: flex;
