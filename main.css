@@ -593,3 +593,19 @@ align-items: flex-start;
     color: #202123;
     font-weight: bold;
 }
+.separator {
+    background: #ffc0cb url(./img/couple.png) right 20% bottom no-repeat;
+    min-height: 360px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #FFFFFF;
+}
+.separator__content {
+    max-width: 40px;
+}
+.separator__title {
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 1.1;
+}
