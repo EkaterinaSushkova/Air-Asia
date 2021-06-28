@@ -262,6 +262,7 @@ display:flex;
     text-decoration: none;
     margin-top: 9px;
     cursor: pointer;
+    border: 1px solid #F5170E;
 }
 .button--black {
     color: #fff;
@@ -269,13 +270,14 @@ display:flex;
     font-weight: bold;
     display: inline-block;
     padding: 16px 30px;
-    background: black;
+    background: #000;
     border-radius: 35px;
     font-size: 14px;
     font-style: normal;
     text-decoration: none;
     margin-top: 9px;
     cursor: pointer;
+    border: 1px solid #000;
 }
 .button--white {
     color: #F5170E;
@@ -702,6 +704,7 @@ align-items: flex-start;
 }
 .button--red:hover{
     background-color: #2B2B2B;
+    border-color: #2B2B2B;
 }
 
 .form__btn {
