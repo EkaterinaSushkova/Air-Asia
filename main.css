@@ -625,12 +625,14 @@ align-items: flex-start;
 .separator {
     background-image: url(./img/Rectangle.png);
     background-size:cover;
-    min-height: 360px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     color: #FFFFFF;
     position: relative;
+}
+.separator .container {
+    padding: 126px 0;
 }
 .separator__title__img {
     position: absolute;
@@ -638,7 +640,7 @@ align-items: flex-start;
     background-size: contain;
     bottom: 0;
     top: 0;
-    right: 0;
+    right: 33px;
     width: 500px;
 }
 .separator__content {
